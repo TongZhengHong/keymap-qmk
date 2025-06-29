@@ -5,6 +5,10 @@ on: [push, workflow_dispatch]
 permissions:
   contents: write
 
+env:
+  KEYBOARDS: |
+    lily58:zhenghong
+
 jobs:
   build:
     name: 'QMK Userspace Build'

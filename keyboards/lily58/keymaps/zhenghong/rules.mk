@@ -1,6 +1,5 @@
 MCU = RP2040
 BOOTLOADER = rp2040
-USER_NAME = zhenghong
 
 LTO_ENABLE = yes            # Link Time Optimization enabled
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
